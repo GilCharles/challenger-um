@@ -1,6 +1,7 @@
-const inputTexto = document.querySelector("")
+const inputTexto = document.querySelector(".traduzirTexto")
 
-const mensagem = document.querySelector("")
+const mensagem = document.querySelector(".saidaTexto")
+
 
 function btnEncriptar() {
     

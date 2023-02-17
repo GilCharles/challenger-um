@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
     <title>Challenger Criptografia</title>
+
 </head>
 <body>
 
@@ -17,26 +19,21 @@
 
     </header>
     
-    <main>
-        <section>
+    <main >
+        <section class="entradaTexto">
 
-            <textarea name="" id="" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+            <textarea cols="30" rows="10" type="text" placeholder="Digite seu texto" class="traduzirTexto" autofocus></textarea>
 
             <div class="botoes">
 
-                <button class="criptografar">Criptografar</button>
-                <button class="descriptografar">Descriptografar</button>
+                <button class="criptografar" onclick="btnEncriptar('traduzirTexto')">Criptografar</button>
+                <button class="descriptografar" onclick="btnDesencriptar('traduzirTexto')">Descriptografar</button>
 
             </div>
         </section>
-        <section>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-        </section>
+        <section class="saidaTexto">
 
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-
-        <section>
-
+            <textarea name="" class="textoFinal" cols="30" rows="10" ></textarea>
 
         </section>
     </main>
@@ -45,3 +42,5 @@
 
 </body>
 </html>
+
+

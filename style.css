@@ -3,8 +3,55 @@
     /*fonte do texto*/
 }
 
-main {
+body {
 
-    display: flex;
+    background: #e5e5e5;
+}
 
+
+
+.entradaTexto textarea{
+    
+    position: absolute;
+    padding: 15px;
+    left: 10%;
+    top: 80px;
+    width: 400px;
+    height: 600px;
+    resize: none;
+    border: none;
+    background: #b9adad;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    outline: none;
+}
+
+.saidaTexto textarea{
+    /* Rectangle 1 */
+    
+    position: absolute;
+    padding: 15px;
+    left: 65%;
+    top: 80px;
+    width: 400px;
+    height: 600px;
+    resize: none;
+    border: none;
+    
+    /* White */
+    background: #FFFFFF;
+    
+    /* shadow */
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    outline: none;
+    
+}
+
+.botoes {
+    
+    display: inline-block;
+    position: absolute;
+    left: 45%;
+    top: 50%;
 }
