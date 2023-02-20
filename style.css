@@ -1,57 +1,89 @@
 * {
-
-    /*fonte do texto*/
+    background: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
 }
 
-body {
-
-    background: #e5e5e5;
+.logo {
+    margin-left: 10px;
+    padding-top: 10px;
+    width:2%;
 }
 
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
 
-
-.entradaTexto textarea{
-    
-    position: absolute;
-    padding: 15px;
-    left: 10%;
-    top: 80px;
-    width: 400px;
-    height: 600px;
-    resize: none;
+.text-area {
     border: none;
-    background: #b9adad;
-    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-    border-radius: 32px;
-    outline: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
 }
+::placeholder { color: #0A3871; }
+  .text-area:focus {
+      outline: none;
+    }
 
-.saidaTexto textarea{
-    /* Rectangle 1 */
-    
-    position: absolute;
-    padding: 15px;
-    left: 65%;
-    top: 80px;
-    width: 400px;
-    height: 600px;
-    resize: none;
+.mensagem {
+    background: white;
+    background-image: url("imagens/boneco.png");
+    background-repeat: no-repeat;
     border: none;
-    
-    /* White */
-    background: #FFFFFF;
-    
-    /* shadow */
-    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-    border-radius: 32px;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+.mensagem:focus {
     outline: none;
-    
 }
 
 .botoes {
-    
-    display: inline-block;
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
     position: absolute;
-    left: 45%;
-    top: 50%;
+    width: 336px;
+}
+
+.informacao {
+    color: #495057;
+    font-size:18px;
 }
